@@ -3,6 +3,7 @@ This module randomly assigns household tasks to children.
 """
 import random
 
+
 def assign_tasks(kids, tasks):
     """
     Assigns a random task from the tasks list to each kid in the kids list.
@@ -25,17 +26,21 @@ def assign_tasks(kids, tasks):
 
 # Assign tasks
 task_assignment = assign_tasks(
-    ["Yann", "Lana", "Alice"], [
+    ["Yann", "Lana", "Alice"],
+    [
         "Ranger la chambre",
         "Faire la vaisselle",
-        "Passer l'aspirateur dans le salon",
+        "Passer l'aspirateur dans la maison",
         "Balayer le sol de la cuisine",
         "Sortir les poubelles",
         "Essuyer la table après les repas",
         "Laver les vitres",
         "Aider à préparer le dîner",
         "Plier et ranger le linge",
-        "Arroser les plantes"
+        "Arroser les plantes",
+        "Faire une machine",
+        "Etendre le linge",
+        "Nettoyer la cuisinière"
     ])
 
 # Print the assigned tasks
